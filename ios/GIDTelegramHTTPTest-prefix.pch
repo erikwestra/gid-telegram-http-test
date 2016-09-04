@@ -1,0 +1,20 @@
+//
+//  GIDTelegramHTTPTest-prefix.pch
+//  GIDTelegramHTTPTest
+//
+//  Created by Erik Westra on 1/09/16.
+//  Copyright © 2016 Facebook. All rights reserved.
+//
+
+#ifndef GIDTelegramHTTPTest_prefix_pch
+#define GIDTelegramHTTPTest_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+  #import <UIKit/UIKit.h>
+  #import <Foundation/Foundation.h>
+#endif
+
+#endif /* GIDTelegramHTTPTest_prefix_pch */

@@ -1,0 +1,52 @@
+{
+  "name": "GIDTelegramHTTPTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "postinstall": "node_modules/.bin/rn-nodeify --install crypto --hack"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "bigint-node": "^1.0.4",
+    "bn.js": "^4.11.6",
+    "browserify-aes": "^1.0.6",
+    "browserify-des": "^1.0.0",
+    "browserify-rsa": "^4.0.1",
+    "buffer": "^4.7.1",
+    "cipher-base": "^1.0.2",
+    "crypto-js": "^3.1.6",
+    "elliptic": "^6.3.1",
+    "es6-promise": "^3.2.1",
+    "eventemitter2": "^1.0.3",
+    "events": "^1.1.1",
+    "evp_bytestokey": "^1.0.0",
+    "get-flow": "github:Qloudio/get-flow.git",
+    "get-log": "github:Qloudio/get-log.git",
+    "jsbn": "^0.1.0",
+    "miller-rabin": "^4.0.0",
+    "node-cryptojs-aes": "github:enricostara/node-cryptojs-aes",
+    "parse-asn1": "^5.0.0",
+    "randombytes": "^2.0.3",
+    "react": "15.3.1",
+    "react-native": "^0.32.0",
+    "react-native-randombytes": "^2.1.0",
+    "ripemd160": "^2.0.1",
+    "sha.js": "^2.4.5",
+    "stream": "0.0.2",
+    "string_decoder": "^0.10.31",
+    "url-parse": "^1.1.3",
+    "util": "^0.10.3",
+    "vm": "^0.1.0",
+    "zlibjs": "^0.2.0"
+  },
+  "devDependencies": {
+    "rn-nodeify": "^6.0.1"
+  },
+  "react-native": {
+    "crypto": "crypto-js"
+  },
+  "browser": {
+    "crypto": "crypto-js"
+  }
+}
